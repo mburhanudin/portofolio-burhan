@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/aladinmall.png";
 import emotion from "../../Assets/Projects/mpm.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/alva.png";
 import suicide from "../../Assets/Projects/bsi.png";
 import bitsOfCode from "../../Assets/Projects/sfid.png";
