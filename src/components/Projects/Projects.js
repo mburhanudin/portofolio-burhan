@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/aladinmall.png";
 import emotion from "../../Assets/Projects/mpm.png";
+import lauretta from "../../Assets/Projects/lauretta.png";
 import chatify from "../../Assets/Projects/alva.png";
 import suicide from "../../Assets/Projects/bsi.png";
 import bitsOfCode from "../../Assets/Projects/sfid.png";
@@ -94,6 +95,17 @@ function Projects() {
               description="Website for E-Procurement in MPM Company"
               ghLink=""
               demoLink="https://mpm-local.refactory.id/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lauretta}
+              isBlog={false}
+              title="Lauretta"
+              description="Website for CMS Property Management"
+              ghLink=""
+              demoLink="http://35.213.189.89:7000/"
             />
           </Col>
         </Row>
