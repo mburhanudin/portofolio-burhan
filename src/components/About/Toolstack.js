@@ -5,7 +5,11 @@ import {
   SiPostman,
   SiSlack,
   SiMacos,
+  SiJira
 } from "react-icons/si";
+import {
+  DiLinux
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -21,6 +25,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiLinux />
       </Col>
     </Row>
   );

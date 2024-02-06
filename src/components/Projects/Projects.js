@@ -8,6 +8,8 @@ import lauretta from "../../Assets/Projects/lauretta.png";
 import chatify from "../../Assets/Projects/alva.png";
 import suicide from "../../Assets/Projects/bsi.png";
 import bitsOfCode from "../../Assets/Projects/sfid.png";
+import seller from "../../Assets/Projects/seller.png";
+import bos from "../../Assets/Projects/bos.png";
 
 function Projects() {
   return (
@@ -106,6 +108,28 @@ function Projects() {
               description="Website for CMS Property Management"
               ghLink=""
               demoLink="http://35.213.189.89:7000/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={seller}
+              isBlog={false}
+              title="Seller Center"
+              description="Website for Seller Aladinmall"
+              ghLink=""
+              demoLink="https://seller-center.aladinmall.id/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bos}
+              isBlog={false}
+              title="BOS Aladinmall"
+              description="Website for Back Office Aladinmall"
+              ghLink=""
+              demoLink="https://bos.aladinmall.id/"
             />
           </Col>
         </Row>

@@ -4,7 +4,12 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
+  DiPhp,
   DiGit,
+  DiMysql,
+  DiCss3,
+  DiDocker,
+  DiHtml5
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -26,10 +31,22 @@ function Techstack() {
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -39,6 +56,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
     </Row>
   );

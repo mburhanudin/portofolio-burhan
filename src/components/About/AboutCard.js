@@ -28,6 +28,12 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+            <li className="about-activity">
+              <ImPointRight /> Hiking
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Riding
+            </li>
           </ul>
 
           <p style={{ color: "#5f83f8" }}>
